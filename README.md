@@ -14,6 +14,7 @@
 
 Can be found on: ( <a href="https://www.theodinproject.com/courses/javascript/lessons/restaurant-page"> The Odin Library Project </a>)
 
+Live version: <a href="https://mouhadiouf.github.io/restaurant-page/" target="_blank"> Restaurant Page </a>
 
 ## Developed by
 
