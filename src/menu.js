@@ -8,7 +8,7 @@ function menu() {
                <div class="col-xl-12 mb-60">
                   <div class="section-title text-center">
                      <p>Famous Webpack Menu</p>
-                     <h4>our menu</h4>
+                     <h4 class="menu-title">Our Menu</h4>
                   </div>
                </div>
             </div>

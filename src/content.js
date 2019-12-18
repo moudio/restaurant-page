@@ -82,7 +82,7 @@ function addMain(){
   </div>
   <div class="row">
           <div class="callout-light text-center fade-in-b">
-          <h1>Reserve your place - <b>Now</b> - <a href="#" class="btn btn-danger">Book</a></h1>
+          <h1 class="callout-heading">Reserve your place - <b>Now</b> - <a href="#" class="btn btn-danger">Book</a></h1>
         </div>
       </div>
 `
