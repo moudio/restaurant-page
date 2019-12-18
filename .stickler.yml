@@ -1,8 +1,7 @@
 
 linters:
     eslint:
-        config: './.eslintrc.js'
-    csslint:
+    config: './.eslintrc.yml'
 
 files:
     ignore:
