@@ -1,10 +1,8 @@
-import addEvents from './content'
-export default contact;
-function contact(){
-const container =  document.querySelector(".main-container");
-container.innerHTML = '';
-const form = document.createElement('form');
-form.innerHTML = `
+export default function contact() {
+  const container = document.querySelector('.main-container');
+  container.innerHTML = '';
+  const form = document.createElement('form');
+  form.innerHTML = `
 <h3>Drop Us a Message</h3>
                <div class="row">
                     <div class="col-md-6">
@@ -25,8 +23,8 @@ form.innerHTML = `
                         </div>
                     </div>
                 </div>
-`
+`;
 
 
-container.appendChild(form)
+  container.appendChild(form);
 }
