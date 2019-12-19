@@ -71,7 +71,6 @@ function addMain(){
     <div class="row">
 
     <div class="col-md-4 div-pic">
-      <img src="pic_2.jpg" alt="">
     </div>
     <div class="col-md-6 text-center">
       <h3>Unique foods</h3>

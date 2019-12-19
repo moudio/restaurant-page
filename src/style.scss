@@ -1,11 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+
 .jumbotron {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./bg.jpg');
 	background-position: center;
 	background-size: cover;
 	color: #fff;
 }
-.div-pic img {
-	width: 100%;
+.div-pic  {
+	background: url('./pic_2.jpg');
+	background-position: center;
+	background-size: cover;
+	margin: 10px;
 }
 .text-center {
 	margin: 25px auto;

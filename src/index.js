@@ -1,9 +1,14 @@
 
 import 'bootstrap';
+
 import mainContent from './content';
 import contact from './contact';
 import menu from './menu';
 export default addEvents;
+import './style.scss';
+import  Bg from './bg.jpg';
+import Background from './background.jpg'
+
 
 mainContent();
 
