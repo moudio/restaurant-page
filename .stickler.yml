@@ -1,0 +1,10 @@
+
+linters:
+    eslint:
+      config: './.eslintrc.yml'
+
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'webroot/bower_components/*'
+        - 'node_modules/*'
