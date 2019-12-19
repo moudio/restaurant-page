@@ -20,17 +20,6 @@ module.exports = {
             loader: 'css-loader',
           },
           {
-            // Loader for webpack to process CSS with PostCSS
-            loader: 'postcss-loader',
-            options: {
-              plugins() {
-                return [
-                  require('autoprefixer'),
-                ];
-              },
-            },
-          },
-          {
             // Loads a SASS/SCSS file and compiles it to CSS
             loader: 'sass-loader',
           },
