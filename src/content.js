@@ -1,58 +1,54 @@
-export default loadContent
-import addEvents from './index';
+export default loadContent;
+import addEvents from "./index";
 
-function loadContent(){
-
-const content = document.getElementById('content');
-content.innerHTML = ''
-addNav();
-addJumbotron();
-addTitle();
-addMain();
-addEvents();
+function loadContent() {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+  addNav();
+  addJumbotron();
+  addTitle();
+  addMain();
+  addEvents();
 }
 
-
-function addJumbotron(){
-  const jumbotron = document.createElement('div');
-  jumbotron.classList.add('jumbotron');
+function addJumbotron() {
+  const jumbotron = document.createElement("div");
+  jumbotron.classList.add("jumbotron");
   jumbotron.innerHTML = `
   <h1 class="display-4">Local Food Done Right</h1>
   <p class="lead">
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
-  `
-content.appendChild(jumbotron)
-
+  `;
+  content.appendChild(jumbotron);
 }
 
-function addNav(){
-  const nav = document.createElement('nav');
-  nav.innerHTML  = `
+function addNav() {
+  const nav = document.createElement("nav");
+  nav.innerHTML = `
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Contact</a>
    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Menu</a>
- </div>`
+ </div>`;
 
-    content.appendChild(nav);
+  content.appendChild(nav);
 }
 
-
-function addTitle(){
-  const title1 = document.createElement('h1');
-  title1.innerText = 'Welcome to the Webpack Restaurant';
-  title1.classList.add('text-center')
-  const paragraph = document.createElement('p');
-paragraph.innerText = 'We deliver high quality food. Indulge yourself';
- paragraph.classList.add('text-center');
-  content.appendChild(title1)
+function addTitle() {
+  const title1 = document.createElement("h1");
+  title1.innerText = "Welcome to the Webpack Restaurant";
+  title1.classList.add("text-center");
+  const paragraph = document.createElement("p");
+  paragraph.innerText = "We deliver high quality food. Indulge yourself";
+  paragraph.classList.add("text-center");
+  content.appendChild(title1);
   content.appendChild(paragraph);
 }
 
-function addMain(){
-  const container = document.createElement('div');
-  container.classList.add('container', 'main-container');
+function addMain() {
+  const container = document.createElement("div");
+  container.classList.add("container", "main-container");
   container.innerHTML = `
   <div class="text-picture">
     <div class="row">
@@ -84,8 +80,7 @@ function addMain(){
           <h1 class="callout-heading">Reserve your place - <b>Now</b> - <a href="#" class="btn btn-danger">Book</a></h1>
         </div>
       </div>
-`
+`;
 
-content.appendChild(container)
-
+  content.appendChild(container);
 }

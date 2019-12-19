@@ -1,7 +1,7 @@
 export default menu;
 
 function menu() {
-  const container = document.querySelector('.main-container')
+  const container = document.querySelector(".main-container");
   container.innerHTML = ` <section class="about-area pt-60">
          <div class="container">
             <div class="row">
@@ -103,7 +103,5 @@ function menu() {
                </div>
             </div>
          </div>
-      </section>`
-
-
+      </section>`;
 }
