@@ -1,0 +1,175 @@
+@import "~bootstrap/scss/bootstrap";
+
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./bg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.div-pic {
+  background: url("./pic_2.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.text-center {
+  margin: 25px auto;
+}
+.text-picture {
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 10px;
+}
+.callout-light {
+  background-color: #ccc;
+  padding: 30px;
+}
+.callout-light .callout-heading {
+  font-weight: 300;
+  line-height: 1.4;
+}
+.container .map {
+  float: left;
+  width: 45%;
+}
+.container .contact-form {
+  float: left;
+  margin-left: 2%;
+  width: 53%;
+}
+.container .contact-form .title {
+  color: #242424;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 5% 8%;
+}
+.container .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+
+/* .container .contact-form input,
+.container .contact-form textarea {
+	color: #242424;
+	margin: 2% 8%;
+	/* padding: 3%; 
+	width: 330px;
+}
+ */
+
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+  color: #242424;
+}
+.container .contact-form .btn-send {
+  background: #a383c9;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  height: 60px;
+  margin: 2% 8%;
+  width: 180px;
+}
+
+.nav-list li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a:before {
+  color: #4d6de6;
+  content: "\f14f";
+  display: inline-block;
+  font: 400 21px/1 "Material Design Icons";
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  transition: 0.22s ease;
+  vertical-align: baseline;
+  visibility: hidden;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-top: 100px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.menu-title {
+  color: #ff5e18;
+  display: inline-block;
+  font-size: 40px;
+  padding-bottom: 25px;
+  position: relative;
+  text-transform: capitalize;
+}
+.menu::before {
+  bottom: 0;
+  height: 1.5px;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+}
+.menu-title::before,
+.menu-title::after {
+  background-color: #ff5e18;
+  content: "";
+  position: absolute;
+}
+.single_menu_list img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  left: 0;
+  max-width: 30%;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  transition: 0.4s;
+}
+.menu_style1 .single_menu_list img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  position: static;
+  width: 100%;
+}
+.single_menu_list {
+  border-bottom: 1px dashed #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+.single_menu_list span {
+  color: #ff5e18;
+  float: right;
+  font-style: italic;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.menu_style1 .single_menu_list {
+  text-align: center;
+}
+.single_menu_list:hover img {
+  border-radius: 0;
+  transition: 0.4s;
+}
