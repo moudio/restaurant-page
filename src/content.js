@@ -26,7 +26,7 @@ function addNav() {
 
 function addTitle() {
   const title1 = document.createElement('h1');
-  title1.innerText = 'Welcome to the Webpack Restaurant';
+  title1.innerText = 'Welcome to Our Restaurant';
   title1.classList.add('text-center');
   const paragraph = document.createElement('p');
   paragraph.innerText = 'We deliver high quality food. Indulge yourself';

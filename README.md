@@ -1,5 +1,5 @@
 # Restaurant Page
-
+> A one page website for a fictional restaurant with multiple tabs. 
 
 ## Technologies
 
@@ -8,6 +8,7 @@
 - JavaScript
 - Webpack
 
+![screenshot](./src/screenshot.png)
 
 
 ## Functionalities
